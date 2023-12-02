@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "curs-work"
+version = "0.1.0"
+description = ""
+authors = ["Olla <oldansh@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+xlrd = "^2.0.1"
+pandas = "^2.1.3"
+
+
+[tool.poetry.group.lint.dependencies]
+black = "^23.11.0"
+flake8 = "^6.1.0"
+isort = "^5.12.0"
+mypy = "^1.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
