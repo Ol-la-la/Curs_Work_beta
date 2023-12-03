@@ -6,4 +6,3 @@ OPERATIONS_PATH = DATA_PATH.joinpath("operations.xls")
 
 ROOT_PATH_SOURCE = Path(__file__).resolve().parent.parent
 USER_JSON_PATH = ROOT_PATH_SOURCE.joinpath("user_settings.json")
-
